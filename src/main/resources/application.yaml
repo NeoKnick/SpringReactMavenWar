@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /spring-react-maven-war
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+  endpoints:
+    web:
+      exposure:
+        include: '*'
